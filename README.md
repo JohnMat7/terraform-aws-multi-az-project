@@ -19,12 +19,12 @@ Building and deploying PDF Uploader project into AWS
 
 
 ## Work to do :
-1) IAM User access (AmazonS3FullAccess, AmazonRDSFullAccess altough we have admin access)
-2) S3 bucket (block access)
+1) IAM User access (AmazonS3FullAccess, AmazonRDSFullAccess although we have admin access)
+2) S3 bucket (block access)   (done)
 3) RDS PostgresSQL instance (access to be decided)
 
 
-4) updating code (boto3 package , )
+4) updating code (boto3 package) (done)
 
 5) Database tier ()
 

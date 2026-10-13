@@ -4,13 +4,7 @@ module "vpc" {
     subnets = var.subnets
 }
 
-output "vpc_id" {
-    value       = module.vpc.vpc_id
-    description = "The ID of the VPC"
-}
-
-
-output "subnet_ids" {
-    value       = module.vpc.subnet_ids
-    description = "Map of subnet names to their IDs"
+module "s3" {
+    source = "./modules/s3"
+    pdf_bucket_name = var.pdf_bucket_name
 }
