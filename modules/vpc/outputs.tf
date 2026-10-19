@@ -4,6 +4,6 @@ output "vpc_id" {
 }
 
 output "subnet_ids" {
-  value = {for k,v in aws_subnet.subnets : k => v.id if v.map_public_ip_on_launch == true}
+  value = {for k,v in aws_subnet.subnets : k => v.id}
   description = "Map of subnet names to their IDs"
 }

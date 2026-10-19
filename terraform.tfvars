@@ -45,3 +45,5 @@ subnets = {
         tier                    = "private"
     }
 }
+
+pdf_bucket_name = "s3-bucket-for-pdf-storage"
